@@ -1,0 +1,10 @@
+Throwed while opening/exporting to pdf:
+** (inkscape.exe:3136): WARNING **: SPObject::updateDisplay(SPCtx *ctx, unsigned int flags) : throw in ((SPObjectClass *) G_OBJECT_GET_CLASS(this))->update(this, ctx, flags);
+
+Locally pdf is saved and ok.
+
+
+Inkscape version | platform                      | affected | output format  | command to reproduce                   | time_exporting              | size        | additional info
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 0.48.5          | windows 7, 64bit              |   yes     |   pdf          | --export-pdf=name.pdf                  | --------                    | 13KB     | warning + no pdf on prod
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
